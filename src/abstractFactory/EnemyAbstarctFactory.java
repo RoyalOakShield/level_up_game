@@ -2,6 +2,6 @@ package abstractFactory;
 
 import beans.Enemy;
 
-public interface EnemyAbstarctFactory {
+public interface EnemyAbstarctFactory extends AbstractFactory{
 	public Enemy createEnemy();
 }

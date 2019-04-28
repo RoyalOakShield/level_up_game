@@ -7,7 +7,7 @@ import builder.Equipment;
 import builder.equipment.*;
 
 public class TestEquipment {
-//×°±¸²âÊÔÀà
+//×°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		testEquipment();
@@ -23,6 +23,7 @@ public class TestEquipment {
 		Player mage = PlayerFactory.getPlayer(new MageFactory("Mage"));
 		System.out.println(mage.getEquipment());
 		mage.setEquipment(equipment);
+		
 		System.out.println(mage.getEquipment());
 		Armor ar = new Armor(10);
 		mage.wear(ar);

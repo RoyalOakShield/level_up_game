@@ -1,7 +1,7 @@
 package abstractFactory;
 
 import beans.Player;
-//³éÏóÍæ¼Ò¹¤³§½Ó¿Ú
-public interface PlayerAbstarctFactory {
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½Ó¿ï¿½
+public interface PlayerAbstarctFactory extends AbstractFactory{
 	public Player createPlayer();
 }
